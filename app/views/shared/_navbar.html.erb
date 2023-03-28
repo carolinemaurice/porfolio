@@ -8,16 +8,16 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="#">Accueil</a>
+            <%= link_to "Accueil", root_path, class:"nav-link" %>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Mon parcours</a>
+            <%= link_to "Mon parcours", "/mon-parcours", class:"nav-link" %>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Mes centres d'intérets</a>
+            <%= link_to "Mes centres d'intérêts", "/mes-centres-interets", class:"nav-link" %>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Mes réalisations</a>
+            <%= link_to "Mes réalisations", "/mes-realisations", class:"nav-link" %>
           </li>
       </ul>
     </div>
