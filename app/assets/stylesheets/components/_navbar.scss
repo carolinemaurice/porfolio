@@ -14,3 +14,16 @@
 .navbar-lewagon h2 {
   color: $green;
 }
+
+.nav-links {
+  color: $green;
+  opacity: 0.4;
+  text-decoration: none;
+  font-size: 16px;
+  padding: 0px 10px;
+}
+
+.nav-links:hover {
+  opacity: 1;
+  color: $green;
+}

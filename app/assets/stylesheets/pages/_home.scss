@@ -1,1 +1,11 @@
 // Specific CSS for your home-page
+#home-back-image {
+  background-image: url(nature-background.jpg);
+  background-size: cover;
+  height: 735px;
+}
+
+#home-h1 {
+  color: white;
+  padding: 15px 0px;
+}

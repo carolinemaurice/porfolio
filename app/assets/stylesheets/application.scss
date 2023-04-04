@@ -12,6 +12,11 @@
 @import "pages/index";
 
 .main-container {
-  min-height: calc(100vh - 166px);
-  background-color: $light-blue;
+  min-height: calc(100vh - 163px);
+  background-color: white;
+}
+
+h1 {
+  color: $blue;
+  padding: 15px 0px;
 }
