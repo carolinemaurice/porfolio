@@ -1,0 +1,13 @@
+.card-paragraph {
+  background-color: white;
+  border-width: 1;
+  border-style: solid;
+  border-color: $light-green;
+  border-radius: 4px;
+  box-shadow: 5px 2px 2px $light-green;
+  padding: 10px;
+}
+
+.card-paragraph p {
+  text-align: justify;
+}
